@@ -1,0 +1,12 @@
+{
+  "store.custom#carmel-home": {
+    "blocks": ["rich-text#carmel-home"]
+  },
+
+  "rich-text#carmel-home": {
+    "props": {
+      "text": "BIENVENIDO A CARMEEEL!",
+      "blockClass": "about"
+    }
+  }
+}

@@ -96,3 +96,12 @@
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+
+.flexRow {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  /* background-color: #ddd; */
+  border-width: 10px;
+  border-color: red !important;
+}

@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "info-card#home",
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -8,11 +9,24 @@
       "flex-layout.row#deals",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
       "rich-text#question",
       "rich-text#link",
-      "newsletter"
+      "newsletter",
+      "back-to-top-button"
     ]
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://www.pacifika.com.co/medias/sys_master/images/images/h77/h8a/9297073799198/Banner-NuevasPrendas10.jpg",
+      "callToActionText": "LO QUIERO TODO",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
   },
 
   "list-context.image-list#demo": {
@@ -21,11 +35,11 @@
       "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "image": "https://www.pacifika.com.co/medias/sys_master/images/images/h26/h7c/9295314124830/1-BannerCyber-Lunes.jpg",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "image": "https://www.pacifika.com.co/medias/sys_master/images/images/h97/h77/9295357476894/2-Banner-VestidosFaldas-CyberLunes.jpg",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
       ]
@@ -73,20 +87,6 @@
     }
   },
 
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
-
   "rich-text#question": {
     "props": {
       "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
@@ -98,6 +98,12 @@
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
+    }
+  },
+
+  "back-to-top-button": {
+    "props": {
+      "displayThreshold": 800
     }
   }
 }
